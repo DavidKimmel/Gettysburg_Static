@@ -2,6 +2,13 @@ const express = require('express');
 const router = express.Router();
 const fs = require('fs');
 const path = require('path');
+const multer = require('multer');
+
+// Configure multer to handle file uploads (but we won't save them in static mode)
+const upload = multer({
+  storage: multer.memoryStorage(), // Store in memory only, don't save to disk
+  limits: { fileSize: 5 * 1024 * 1024 } // 5MB limit
+});
 
 // Path to static JSON file (initial/demo submissions)
 const dataPath = path.join(__dirname, '..', 'data', 'static', 'user-submissions.json');
@@ -21,9 +28,10 @@ router.get('/', (req, res) => {
 
 // POST endpoint no longer saves to database
 // Returns success but data is only stored client-side
-router.post('/', (req, res) => {
+router.post('/', upload.single('photo'), (req, res) => {
   // In static mode, submissions are handled client-side with localStorage
   // This endpoint just validates and acknowledges the submission
+  // Note: multer handles the multipart form data, but we don't save files
   const { monument_id, story_text } = req.body;
 
   // Basic validation
