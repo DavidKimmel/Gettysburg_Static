@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm run export-to-json:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

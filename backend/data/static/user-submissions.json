@@ -1,0 +1,62 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 3,
+        "monument_id": 63,
+        "monument_name": "Pitzer Woods",
+        "user_name": "David K",
+        "story_text": "Testing Photo Upload",
+        "photo_url": "/uploads/stories/lesson-aliens-cows-and-questions-1762023917835-51805141.jpg",
+        "submitted_at": "2025-11-01T19:05:17.883Z"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.256110133,
+          39.802795771
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 2,
+        "monument_id": 58,
+        "monument_name": "North Carolina Monument",
+        "user_name": "Dave K",
+        "story_text": "Testing this activity",
+        "photo_url": null,
+        "submitted_at": "2025-11-01T18:45:21.422Z"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.247656864,
+          39.818557736
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 1,
+        "monument_id": 4,
+        "monument_name": "1. Little and Big Round Top from the Valley of Death Then & Now",
+        "user_name": "David Test",
+        "story_text": "Testing this API",
+        "photo_url": null,
+        "submitted_at": "2025-10-14T20:34:00.737Z"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.238661051,
+          39.796815253
+        ]
+      }
+    }
+  ]
+}

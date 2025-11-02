@@ -1,0 +1,34 @@
+{
+  "name": "gettysburg-park-app",
+  "version": "1.0.0",
+  "description": "Interactive web mapping application for Gettysburg National Military Park",
+  "main": "backend/server.js",
+  "scripts": {
+    "start": "node backend/server-static.js",
+    "dev": "nodemon backend/server-static.js",
+    "start:db": "node backend/server.js",
+    "dev:db": "nodemon backend/server.js",
+    "init-db": "node backend/database/init-production-db.js",
+    "import-all": "node backend/import_places.js && node backend/import_facilities.js && node backend/import-trails.js && node backend/import_boundary.js",
+    "export-to-json": "node backend/export-to-json.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["gis", "mapping", "postgis", "leaflet", "national-park", "geospatial"],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0"
+  },
+  "optionalDependencies": {
+    "dotenv": "^17.2.3",
+    "multer": "^2.0.2",
+    "pg": "^8.16.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}

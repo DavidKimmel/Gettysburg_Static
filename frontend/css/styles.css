@@ -1,0 +1,333 @@
+/* General Layout */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    overflow: hidden;
+}
+
+/* Navbar */
+.navbar {
+    z-index: 1000;
+}
+
+.navbar-brand {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+/* Sidebar */
+.sidebar {
+    height: calc(100vh - 56px);
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.sidebar h5 {
+    color: #2d5016;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.sidebar h6 {
+    color: #4a5f7f;
+    font-weight: 600;
+    font-size: 0.9rem;
+    margin-bottom: 0.75rem;
+}
+
+/* Map Container */
+#map {
+    height: calc(100vh - 56px);
+    width: 100%;
+    background: #f0f0f0;
+}
+
+/* Loading Indicator */
+#loading {
+    z-index: 1000;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 8px;
+}
+
+/* Search Results */
+#searchResults {
+    max-height: 200px;
+    overflow-y: auto;
+}
+
+.search-result-item {
+    padding: 8px;
+    border-bottom: 1px solid #dee2e6;
+    cursor: pointer;
+    font-size: 0.875rem;
+}
+
+.search-result-item:hover {
+    background-color: #e9ecef;
+}
+
+/* Leaflet Popup Customization */
+.leaflet-popup-content {
+    margin: 10px 15px;
+    line-height: 1.4;
+}
+
+.leaflet-popup-content h6 {
+    margin-top: 0;
+    margin-bottom: 8px;
+    color: #2d5016;
+    font-weight: 600;
+}
+
+.leaflet-popup-content img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+    margin-top: 8px;
+}
+
+.popup-label {
+    font-weight: 600;
+    color: #4a5f7f;
+    margin-right: 4px;
+}
+
+.accessibility-stars {
+    color: #d4a574;
+    font-size: 1.1em;
+}
+
+/* Layer Control Checkboxes */
+.form-check {
+    margin-bottom: 8px;
+}
+
+.form-check-label {
+    font-size: 0.9rem;
+    cursor: pointer;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+    .sidebar {
+        position: absolute;
+        left: -100%;
+        width: 80%;
+        height: calc(100vh - 56px);
+        z-index: 999;
+        background: white;
+        transition: left 0.3s ease;
+        box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .sidebar.show {
+        left: 0;
+    }
+
+    .col-md-9 {
+        width: 100%;
+    }
+
+    #map {
+        height: calc(100vh - 56px);
+    }
+}
+
+/* Color Scheme - Gettysburg Theme */
+:root {
+    --primary-green: #2d5016;
+    --secondary-blue: #4a5f7f;
+    --accent-gold: #d4a574;
+    --background: #f8f9fa;
+}
+
+/* Custom Scrollbar */
+.sidebar::-webkit-scrollbar {
+    width: 8px;
+}
+
+.sidebar::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+.sidebar::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 4px;
+}
+
+.sidebar::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+/* Popup Content Limits */
+.leaflet-popup-content {
+    max-height: 400px;
+    overflow-y: auto;
+}
+
+.popup-description {
+    max-height: 150px;
+    overflow: hidden;
+    position: relative;
+}
+
+.popup-description.expanded {
+    max-height: none;
+}
+
+.popup-description.truncated::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 40px;
+    background: linear-gradient(transparent, white);
+}
+
+.read-more-btn {
+    color: #0066cc;
+    cursor: pointer;
+    font-size: 0.875rem;
+    text-decoration: underline;
+    margin-top: 5px;
+    display: inline-block;
+}
+
+.read-more-btn:hover {
+    color: #004499;
+}
+
+/* Ensure images don't break layout */
+.leaflet-popup-content img {
+    max-height: 200px;
+    object-fit: cover;
+}
+/* Mobile Sidebar Toggle */
+#sidebarToggle {
+    font-size: 24px;
+    border: none;
+    padding: 5px 12px;
+}
+
+/* Sidebar behavior on mobile */
+@media (max-width: 767px) {
+    .sidebar {
+        position: fixed;
+        left: -100%;
+        top: 56px;
+        /* Height of navbar */
+        height: calc(100vh - 56px);
+        width: 80%;
+        max-width: 300px;
+        z-index: 1050;
+        transition: left 0.3s ease;
+        overflow-y: auto;
+        box-shadow: 2px 0 5px rgba(0, 0, 0, 0.3);
+    }
+
+    .sidebar.show {
+        left: 0;
+    }
+
+    /* Overlay when sidebar is open */
+    .sidebar-overlay {
+        display: none;
+        position: fixed;
+        top: 56px;
+        left: 0;
+        width: 100%;
+        height: calc(100vh - 56px);
+        background-color: rgba(0, 0, 0, 0.5);
+        z-index: 1040;
+    }
+
+    .sidebar-overlay.show {
+        display: block;
+    }
+
+    /* Map takes full width on mobile */
+    .col-md-9 {
+        padding: 0 !important;
+    }
+}
+
+/* Desktop - hide toggle button */
+@media (min-width: 768px) {
+    #sidebarToggle {
+        display: none;
+    }
+}
+
+/* Story Browser Styles */
+.story-card {
+    border-left: 3px solid var(--primary-green);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.story-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.story-card .card-body {
+    padding: 1rem;
+}
+
+.story-card h6 {
+    color: var(--primary-green);
+    font-size: 1rem;
+    margin-bottom: 0.25rem;
+}
+
+.story-card .card-text {
+    font-size: 0.95rem;
+    line-height: 1.6;
+    color: #333;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+.view-on-map-btn {
+    font-size: 0.75rem;
+    padding: 0.25rem 0.5rem;
+    white-space: nowrap;
+}
+
+#storiesContainer {
+    max-height: 60vh;
+    overflow-y: auto;
+}
+
+#storiesContainer::-webkit-scrollbar {
+    width: 8px;
+}
+
+#storiesContainer::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+#storiesContainer::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 4px;
+}
+
+#storiesContainer::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+/* Story search and filter styling */
+#storySearchInput {
+    border-color: #ced4da;
+}
+
+#storySearchInput:focus {
+    border-color: var(--primary-green);
+    box-shadow: 0 0 0 0.2rem rgba(45, 80, 22, 0.25);
+}
+
+#storySortSelect:focus {
+    border-color: var(--primary-green);
+    box-shadow: 0 0 0 0.2rem rgba(45, 80, 22, 0.25);
+}

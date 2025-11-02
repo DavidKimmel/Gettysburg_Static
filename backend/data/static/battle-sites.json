@@ -1,0 +1,412 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 9,
+        "name": "Cemetery Ridge",
+        "battle_date": "1863-07-02T04:56:02.000Z",
+        "description": "Main two-mile Union defensive line extending south from Cemetery Hill. Held against repeated Confederate assaults on July 2 and 3.",
+        "casualties": 4200
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -77.234,
+              39.82
+            ],
+            [
+              -77.23,
+              39.82
+            ],
+            [
+              -77.229,
+              39.805
+            ],
+            [
+              -77.233,
+              39.805
+            ],
+            [
+              -77.234,
+              39.82
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 10,
+        "name": "Culp's Hill",
+        "battle_date": "1863-07-02T04:56:02.000Z",
+        "description": "Anchor of the Union right flank. Confederate forces captured some breastworks on evening of July 2, but were driven back morning of July 3.",
+        "casualties": 2700
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -77.225,
+              39.823
+            ],
+            [
+              -77.221,
+              39.823
+            ],
+            [
+              -77.221,
+              39.818
+            ],
+            [
+              -77.225,
+              39.818
+            ],
+            [
+              -77.225,
+              39.823
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 6,
+        "name": "Devil's Den",
+        "battle_date": "1863-07-02T04:56:02.000Z",
+        "description": "Rocky area at the base of Big Round Top. Scene of intense fighting between Union sharpshooters and Confederate forces attempting to flank the Union line.",
+        "casualties": 1200
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -77.2395,
+              39.791
+            ],
+            [
+              -77.237,
+              39.791
+            ],
+            [
+              -77.237,
+              39.789
+            ],
+            [
+              -77.2395,
+              39.789
+            ],
+            [
+              -77.2395,
+              39.791
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 12,
+        "name": "East Cavalry Field",
+        "battle_date": "1863-07-03T04:56:02.000Z",
+        "description": "Site of cavalry battle between Union forces under Brig. Gen. David Gregg and Confederate cavalry under J.E.B. Stuart, three miles east of Gettysburg. Stuart's attempt to attack Union rear was thwarted.",
+        "casualties": 850
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -77.185,
+              39.81
+            ],
+            [
+              -77.175,
+              39.81
+            ],
+            [
+              -77.175,
+              39.8
+            ],
+            [
+              -77.185,
+              39.8
+            ],
+            [
+              -77.185,
+              39.81
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 5,
+        "name": "Little Round Top",
+        "battle_date": "1863-07-02T04:56:02.000Z",
+        "description": "Critical Union defensive position. The 20th Maine Infantry under Col. Joshua Chamberlain held the Union left flank in desperate fighting, including a famous bayonet charge.",
+        "casualties": 1750
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -77.2385,
+              39.7955
+            ],
+            [
+              -77.236,
+              39.7955
+            ],
+            [
+              -77.236,
+              39.7935
+            ],
+            [
+              -77.2385,
+              39.7935
+            ],
+            [
+              -77.2385,
+              39.7955
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 2,
+        "name": "McPherson Ridge",
+        "battle_date": "1863-07-01T04:56:02.000Z",
+        "description": "Site of the opening engagement of the battle. Union cavalry under John Buford delayed Confederate advance, buying time for Union infantry to arrive.",
+        "casualties": 3500
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -77.245,
+              39.838
+            ],
+            [
+              -77.235,
+              39.838
+            ],
+            [
+              -77.235,
+              39.832
+            ],
+            [
+              -77.245,
+              39.832
+            ],
+            [
+              -77.245,
+              39.838
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 3,
+        "name": "Oak Ridge",
+        "battle_date": "1863-07-01T04:56:02.000Z",
+        "description": "Union forces under Maj. Gen. Oliver O. Howard made a stand here before being pushed back through town. Site of fierce fighting on Day 1.",
+        "casualties": 2800
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -77.242,
+              39.835
+            ],
+            [
+              -77.234,
+              39.835
+            ],
+            [
+              -77.234,
+              39.828
+            ],
+            [
+              -77.242,
+              39.828
+            ],
+            [
+              -77.242,
+              39.835
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 11,
+        "name": "Pickett's Charge",
+        "battle_date": "1863-07-03T04:56:02.000Z",
+        "description": "Lee's final assault on the Union center. Nearly 12,500 Confederate soldiers advanced across open fields under devastating artillery and rifle fire. The repulse marked the \"High Water Mark of the Confederacy.\"",
+        "casualties": 6500
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -77.236,
+              39.8115
+            ],
+            [
+              -77.229,
+              39.8115
+            ],
+            [
+              -77.228,
+              39.8085
+            ],
+            [
+              -77.234,
+              39.8085
+            ],
+            [
+              -77.236,
+              39.8115
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 4,
+        "name": "Seminary Ridge",
+        "battle_date": "1863-07-01T04:56:02.000Z",
+        "description": "Final Union defensive line on Day 1 before retreating through Gettysburg. Named for the Lutheran Theological Seminary located here.",
+        "casualties": 1500
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -77.248,
+              39.83
+            ],
+            [
+              -77.238,
+              39.83
+            ],
+            [
+              -77.238,
+              39.815
+            ],
+            [
+              -77.248,
+              39.815
+            ],
+            [
+              -77.248,
+              39.83
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 8,
+        "name": "The Peach Orchard",
+        "battle_date": "1863-07-02T04:56:02.000Z",
+        "description": "Salient (forward position) of Union line under Gen. Dan Sickles. Overrun by Confederate forces in afternoon fighting on July 2.",
+        "casualties": 3100
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -77.238,
+              39.803
+            ],
+            [
+              -77.234,
+              39.803
+            ],
+            [
+              -77.234,
+              39.8
+            ],
+            [
+              -77.238,
+              39.8
+            ],
+            [
+              -77.238,
+              39.803
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 7,
+        "name": "The Wheatfield",
+        "battle_date": "1863-07-02T04:56:02.000Z",
+        "description": "Changed hands six times during intense fighting on July 2. Over 4,000 casualties in this small field, one of the bloodiest areas of the battle.",
+        "casualties": 4200
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -77.2345,
+              39.7985
+            ],
+            [
+              -77.231,
+              39.7985
+            ],
+            [
+              -77.231,
+              39.796
+            ],
+            [
+              -77.2345,
+              39.796
+            ],
+            [
+              -77.2345,
+              39.7985
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

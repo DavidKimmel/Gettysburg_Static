@@ -1,0 +1,21 @@
+# Render Blueprint for Gettysburg Park App (STATIC VERSION)
+# No database required - serves data from JSON files
+
+services:
+  # Web Service (Node.js backend + frontend - Static JSON mode)
+  - type: web
+    name: gettysburg-park-guide
+    env: node
+    region: oregon
+    plan: free
+    buildCommand: npm install
+    startCommand: node backend/server-static.js
+    healthCheckPath: /api/test
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: 10000
+
+# No database needed for static version!
+# All data served from JSON files in backend/data/static/

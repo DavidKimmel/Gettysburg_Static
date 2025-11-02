@@ -1,0 +1,413 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 6,
+        "name": "A. Museum and Visitor Center: Parking Lot Number One",
+        "type": "parking",
+        "is_accessible": true,
+        "hours_open": "Open 24 hours"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.223921501,
+          39.810206
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 7,
+        "name": "B. Museum and Visitor Center: Parking Lot Number Three",
+        "type": "parking",
+        "is_accessible": true,
+        "hours_open": "Open 24 hours"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.229112387,
+          39.812038702
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 8,
+        "name": "C. Museum and Visitor Center: Tour Bus - Recreational Vehicle - Electric Vehicle Charging Parking Lot",
+        "type": "parking",
+        "is_accessible": true,
+        "hours_open": "Open 24 hours"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.222417593,
+          39.810431621
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 9,
+        "name": "D. Auto Tour Stop Number 2: Eternal Light Peace Memorial",
+        "type": "parking",
+        "is_accessible": true,
+        "hours_open": "Open 24 hours"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.243708968,
+          39.847986284
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 4,
+        "name": "David Wills House",
+        "type": "visitor_center",
+        "is_accessible": true,
+        "hours_open": "Closed"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.230603695,
+          39.830789324
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 10,
+        "name": "E. Auto Tour Stop Number 3: Oak Ridge Observation Tower",
+        "type": "parking",
+        "is_accessible": true,
+        "hours_open": "Open 24 hours"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.241917253,
+          39.843892357
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 11,
+        "name": "F. Auto Tour Stop Number 5: Virginia Memorial",
+        "type": "parking",
+        "is_accessible": true,
+        "hours_open": "Open 24 hours"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.25042522,
+          39.813963029
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 12,
+        "name": "G. Amphitheater Gravel Parking Lot",
+        "type": "parking",
+        "is_accessible": true,
+        "hours_open": "Open 24 hours"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.256283164,
+          39.805140351
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 13,
+        "name": "H. Warfield Observation Tower Parking Lot",
+        "type": "parking",
+        "is_accessible": true,
+        "hours_open": "Open 24 hours"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.256090045,
+          39.799683816
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 14,
+        "name": "I. Picnic Area Gravel Parking Lot",
+        "type": "parking",
+        "is_accessible": true,
+        "hours_open": "Open 24 hours"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.254314423,
+          39.788184113
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 15,
+        "name": "J. Big Round Top Parking Lot",
+        "type": "parking",
+        "is_accessible": true,
+        "hours_open": "Open 24 hours"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.240560055,
+          39.788658153
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 16,
+        "name": "K. 20th Maine Parking Lot",
+        "type": "parking",
+        "is_accessible": true,
+        "hours_open": "Open 24 hours"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.236348987,
+          39.789202265
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 17,
+        "name": "L. Auto Tour Stop Number 8: Little Round Top Parking Lot",
+        "type": "parking",
+        "is_accessible": true,
+        "hours_open": "Open 24 hours"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.236359715,
+          39.79184032
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 18,
+        "name": "M. Wheatfield Road Gravel Parking Lot",
+        "type": "parking",
+        "is_accessible": true,
+        "hours_open": "Open 24 hours"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.233929634,
+          39.794746186
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 5,
+        "name": "Museum and Visitor Center",
+        "type": "visitor_center",
+        "is_accessible": true,
+        "hours_open": "8:00AM - 5:00PM"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.2260164,
+          39.8115765
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 19,
+        "name": "Museum and Visitor Center Parking Lot Number Two",
+        "type": "parking",
+        "is_accessible": true,
+        "hours_open": "Open 24 hours"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.225566506,
+          39.810027785
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 20,
+        "name": "N. Warren Avenue Parking Lot",
+        "type": "parking",
+        "is_accessible": true,
+        "hours_open": "Open 24 hours"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.237851024,
+          39.790096742
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 21,
+        "name": "O. Devil's Den Parking Lot",
+        "type": "parking",
+        "is_accessible": true,
+        "hours_open": "Open 24 hours"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.241750956,
+          39.791440496
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 22,
+        "name": "P. Pennsylvania Memorial Parking Lot",
+        "type": "parking",
+        "is_accessible": true,
+        "hours_open": "Open 24 hours"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.2346905,
+          39.8076139
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 23,
+        "name": "Q. Auto Tour Stop Number 13: Spangler's Spring Parking Lot",
+        "type": "parking",
+        "is_accessible": true,
+        "hours_open": "Open 24 hours"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.216763496,
+          39.814350361
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 24,
+        "name": "R. Culp's Hill Observation Tower Parking Lot",
+        "type": "parking",
+        "is_accessible": true,
+        "hours_open": "Open 24 hours"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.220132351,
+          39.820024101
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 25,
+        "name": "S. Gettysburg National Cemetery Parking Lot",
+        "type": "parking",
+        "is_accessible": true,
+        "hours_open": "Open 24 hours"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.2331952,
+          39.8168082
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 26,
+        "name": "T. Gettysburg National Cemetery Overflow Gravel Parking Lot",
+        "type": "parking",
+        "is_accessible": true,
+        "hours_open": "Open 24 hours"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.23198235,
+          39.816048
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 27,
+        "name": "U. Hunt Avenue Grass Parking Area",
+        "type": "parking",
+        "is_accessible": true,
+        "hours_open": "Open 24 hours"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.231687307,
+          39.814651159
+        ]
+      }
+    }
+  ]
+}

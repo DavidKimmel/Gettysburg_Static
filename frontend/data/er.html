@@ -1,0 +1,161 @@
+
+<svg width="1200" height="900" viewBox="0 0 1200 900" className="border-2 border-gray-300 rounded">
+  {/* Define arrow marker for relationships */}
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#4B5563" />
+    </marker>
+  </defs>
+  
+  {/* MONUMENTS Table */}
+  <g transform="translate(50, 50)">
+    <rect width="280" height="240" fill="#EF4444" stroke="#991B1B" strokeWidth="2" rx="5"/>
+    <text x="140" y="25" textAnchor="middle" fill="white" fontSize="18" fontWeight="bold">MONUMENTS</text>
+    <line x1="0" y1="35" x2="280" y2="35" stroke="#991B1B" strokeWidth="2"/>
+    
+    <text x="10" y="55" fill="white" fontSize="14" fontWeight="bold">PK  id</text>
+    <text x="10" y="75" fill="white" fontSize="14">name</text>
+    <text x="10" y="95" fill="white" fontSize="14">description</text>
+    <text x="10" y="115" fill="white" fontSize="14">dedication_date</text>
+    <text x="10" y="135" fill="white" fontSize="14">accessibility_rating</text>
+    <text x="10" y="155" fill="white" fontSize="14">photo_url</text>
+    <text x="10" y="175" fill="white" fontSize="14">geom (POINT)</text>
+    <text x="10" y="195" fill="white" fontSize="14">created_at</text>
+    <text x="10" y="215" fill="white" fontSize="14">updated_at</text>
+  </g>
+
+  {/* TRAILS Table */}
+  <g transform="translate(450, 50)">
+    <rect width="280" height="260" fill="#3B82F6" stroke="#1E3A8A" strokeWidth="2" rx="5"/>
+    <text x="140" y="25" textAnchor="middle" fill="white" fontSize="18" fontWeight="bold">TRAILS</text>
+    <line x1="0" y1="35" x2="280" y2="35" stroke="#1E3A8A" strokeWidth="2"/>
+    
+    <text x="10" y="55" fill="white" fontSize="14" fontWeight="bold">PK  id</text>
+    <text x="10" y="75" fill="white" fontSize="14">name</text>
+    <text x="10" y="95" fill="white" fontSize="14">length_miles</text>
+    <text x="10" y="115" fill="white" fontSize="14">surface_type</text>
+    <text x="10" y="135" fill="white" fontSize="14">is_accessible</text>
+    <text x="10" y="155" fill="white" fontSize="14">difficulty</text>
+    <text x="10" y="175" fill="white" fontSize="14">geom (LINESTRING)</text>
+    <text x="10" y="195" fill="white" fontSize="14">created_at</text>
+    <text x="10" y="215" fill="white" fontSize="14">updated_at</text>
+  </g>
+
+  {/* FACILITIES Table */}
+  <g transform="translate(850, 50)">
+    <rect width="280" height="240" fill="#10B981" stroke="#065F46" strokeWidth="2" rx="5"/>
+    <text x="140" y="25" textAnchor="middle" fill="white" fontSize="18" fontWeight="bold">FACILITIES</text>
+    <line x1="0" y1="35" x2="280" y2="35" stroke="#065F46" strokeWidth="2"/>
+    
+    <text x="10" y="55" fill="white" fontSize="14" fontWeight="bold">PK  id</text>
+    <text x="10" y="75" fill="white" fontSize="14">name</text>
+    <text x="10" y="95" fill="white" fontSize="14">type</text>
+    <text x="10" y="115" fill="white" fontSize="14">hours_open</text>
+    <text x="10" y="135" fill="white" fontSize="14">is_accessible</text>
+    <text x="10" y="155" fill="white" fontSize="14">geom (POINT)</text>
+    <text x="10" y="175" fill="white" fontSize="14">created_at</text>
+    <text x="10" y="195" fill="white" fontSize="14">updated_at</text>
+  </g>
+
+  {/* BATTLE_SITES Table */}
+  <g transform="translate(50, 380)">
+    <rect width="280" height="240" fill="#8B5CF6" stroke="#5B21B6" strokeWidth="2" rx="5"/>
+    <text x="140" y="25" textAnchor="middle" fill="white" fontSize="18" fontWeight="bold">BATTLE_SITES</text>
+    <line x1="0" y1="35" x2="280" y2="35" stroke="#5B21B6" strokeWidth="2"/>
+    
+    <text x="10" y="55" fill="white" fontSize="14" fontWeight="bold">PK  id</text>
+    <text x="10" y="75" fill="white" fontSize="14">name</text>
+    <text x="10" y="95" fill="white" fontSize="14">battle_date</text>
+    <text x="10" y="115" fill="white" fontSize="14">description</text>
+    <text x="10" y="135" fill="white" fontSize="14">casualties</text>
+    <text x="10" y="155" fill="white" fontSize="14">geom (POLYGON)</text>
+    <text x="10" y="175" fill="white" fontSize="14">created_at</text>
+    <text x="10" y="195" fill="white" fontSize="14">updated_at</text>
+  </g>
+
+  {/* USER_SUBMISSIONS Table */}
+  <g transform="translate(450, 380)">
+    <rect width="280" height="280" fill="#F59E0B" stroke="#92400E" strokeWidth="2" rx="5"/>
+    <text x="140" y="25" textAnchor="middle" fill="white" fontSize="18" fontWeight="bold">USER_SUBMISSIONS</text>
+    <line x1="0" y1="35" x2="280" y2="35" stroke="#92400E" strokeWidth="2"/>
+    
+    <text x="10" y="55" fill="white" fontSize="14" fontWeight="bold">PK  id</text>
+    <text x="10" y="75" fill="white" fontSize="14" fontWeight="bold">FK  monument_id</text>
+    <text x="10" y="95" fill="white" fontSize="14">visitor_name</text>
+    <text x="10" y="115" fill="white" fontSize="14">visitor_email</text>
+    <text x="10" y="135" fill="white" fontSize="14">story_text</text>
+    <text x="10" y="155" fill="white" fontSize="14">photo_url</text>
+    <text x="10" y="175" fill="white" fontSize="14">rating</text>
+    <text x="10" y="195" fill="white" fontSize="14">location (POINT)</text>
+    <text x="10" y="215" fill="white" fontSize="14">submitted_at</text>
+    <text x="10" y="235" fill="white" fontSize="14">is_approved</text>
+  </g>
+
+  {/* PARK_BOUNDARIES Table */}
+  <g transform="translate(850, 380)">
+    <rect width="280" height="200" fill="#6366F1" stroke="#312E81" strokeWidth="2" rx="5"/>
+    <text x="140" y="25" textAnchor="middle" fill="white" fontSize="18" fontWeight="bold">PARK_BOUNDARIES</text>
+    <line x1="0" y1="35" x2="280" y2="35" stroke="#312E81" strokeWidth="2"/>
+    
+    <text x="10" y="55" fill="white" fontSize="14" fontWeight="bold">PK  id</text>
+    <text x="10" y="75" fill="white" fontSize="14">name</text>
+    <text x="10" y="95" fill="white" fontSize="14">boundary_type</text>
+    <text x="10" y="115" fill="white" fontSize="14">geom (MULTIPOLYGON)</text>
+    <text x="10" y="135" fill="white" fontSize="14">created_at</text>
+    <text x="10" y="155" fill="white" fontSize="14">updated_at</text>
+  </g>
+
+  {/* TRAIL_MONUMENTS Junction Table */}
+  <g transform="translate(450, 710)">
+    <rect width="280" height="140" fill="#64748B" stroke="#1E293B" strokeWidth="2" rx="5"/>
+    <text x="140" y="25" textAnchor="middle" fill="white" fontSize="18" fontWeight="bold">TRAIL_MONUMENTS</text>
+    <line x1="0" y1="35" x2="280" y2="35" stroke="#1E293B" strokeWidth="2"/>
+    
+    <text x="10" y="55" fill="white" fontSize="14" fontWeight="bold">PK  id</text>
+    <text x="10" y="75" fill="white" fontSize="14" fontWeight="bold">FK  trail_id</text>
+    <text x="10" y="95" fill="white" fontSize="14" fontWeight="bold">FK  monument_id</text>
+    <text x="10" y="115" fill="white" fontSize="14">distance_from_start</text>
+  </g>
+
+  {/* Relationship Lines */}
+  
+  {/* USER_SUBMISSIONS to MONUMENTS (Many-to-One) */}
+  <line x1="450" y1="510" x2="330" y2="270" stroke="#4B5563" strokeWidth="2" markerEnd="url(#arrowhead)"/>
+  <text x="380" y="380" fill="#1F2937" fontSize="14" fontWeight="bold">N</text>
+  <text x="340" y="280" fill="#1F2937" fontSize="14" fontWeight="bold">1</text>
+  <text x="360" y="360" fill="#1F2937" fontSize="12">submits story at</text>
+
+  {/* TRAIL_MONUMENTS to TRAILS (Many-to-One) */}
+  <line x1="590" y1="710" x2="590" y2="310" stroke="#4B5563" strokeWidth="2" markerEnd="url(#arrowhead)"/>
+  <text x="600" y="520" fill="#1F2937" fontSize="14" fontWeight="bold">N</text>
+  <text x="600" y="320" fill="#1F2937" fontSize="14" fontWeight="bold">1</text>
+  <text x="605" y="500" fill="#1F2937" fontSize="12">connects</text>
+
+  {/* TRAIL_MONUMENTS to MONUMENTS (Many-to-One) */}
+  <line x1="450" y1="780" x2="190" y2="290" stroke="#4B5563" strokeWidth="2" markerEnd="url(#arrowhead)"/>
+  <text x="310" y="540" fill="#1F2937" fontSize="14" fontWeight="bold">N</text>
+  <text x="200" y="300" fill="#1F2937" fontSize="14" fontWeight="bold">1</text>
+  <text x="280" y="520" fill="#1F2937" fontSize="12">passes by</text>
+
+  {/* Legend */}
+  <g transform="translate(50, 730)">
+    <text x="0" y="0" fill="#1F2937" fontSize="16" fontWeight="bold">Legend:</text>
+    <text x="0" y="25" fill="#1F2937" fontSize="12">PK = Primary Key</text>
+    <text x="0" y="45" fill="#1F2937" fontSize="12">FK = Foreign Key</text>
+    <text x="0" y="65" fill="#1F2937" fontSize="12">1 = One (required)</text>
+    <text x="0" y="85" fill="#1F2937" fontSize="12">N = Many (0 or more)</text>
+    <text x="0" y="105" fill="#1F2937" fontSize="12">Arrows indicate relationship direction</text>
+  </g>
+
+  {/* Statistics Box */}
+  <g transform="translate(850, 630)">
+    <rect width="280" height="140" fill="#F3F4F6" stroke="#6B7280" strokeWidth="2" rx="5"/>
+    <text x="140" y="25" textAnchor="middle" fill="#1F2937" fontSize="16" fontWeight="bold">Database Statistics</text>
+    <line x1="0" y1="35" x2="280" y2="35" stroke="#6B7280" strokeWidth="1"/>
+    
+    <text x="10" y="60" fill="#374151" fontSize="13">Total Tables: 7</text>
+    <text x="10" y="80" fill="#374151" fontSize="13">Total Features: 607</text>
+    <text x="10" y="100" fill="#374151" fontSize="13">Spatial Tables: 6</text>
+    <text x="10" y="120" fill="#374151" fontSize="13">Junction Tables: 1</text>
+  </g>
+</svg>
