@@ -17,8 +17,8 @@ const PORT = process.env.PORT || 3000;
 const allowedOrigins = [
   'http://localhost:3000',
   'http://127.0.0.1:3000',
-  'https://your-portfolio-domain.github.io', // Replace with your actual GitHub Pages domain
-  'https://gettysburg-park-guide.onrender.com' // Replace with your Render app URL
+  'https://davidkimmel.github.io', // Your GitHub Pages domain (update if different)
+  'https://gettysburg-static.onrender.com' // Your Render app URL (update after deployment)
 ];
 
 const corsOptions = {
