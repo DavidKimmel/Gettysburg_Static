@@ -4,7 +4,7 @@ A full-stack web application for exploring the Gettysburg National Military Park
 
 **🎉 Now available in Static Mode** - Deployable for **$0/month forever** on Render.com!
 
-[View Code](https://github.com/DavidKimmel/Gettysburg_Static) | [Deployment Guide](DEPLOYMENT_STATIC.md) | [Live Demo](#) (Deploy to get URL!)
+**[🚀 Live Demo](https://gettysburg-static.onrender.com)** | [View Code](https://github.com/DavidKimmel/Gettysburg_Static) | [Deployment Guide](DEPLOYMENT_STATIC.md)
 
 ## Features
 
